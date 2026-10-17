@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KHAAKI | Karachi Streetwear</title>
+<meta name="description" content="Streetwear made in Karachi. Oversized tees, cargos and hoodies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topbar">Free delivery across Pakistan on orders over Rs. 5,000</div>
+
+<header class="header">
+  <nav class="nav container" aria-label="Main">
+    <a href="#" class="logo">KHAAKI</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#new">New In</a></li>
+      <li class="dropdown">
+        <button class="drop-btn" aria-expanded="false">Shop</button>
+        <ul class="drop-menu">
+          <li><a href="#categories">Tees</a></li>
+          <li><a href="#categories">Cargos</a></li>
+          <li><a href="#categories">Hoodies</a></li>
+          <li><a href="#categories">Accessories</a></li>
+        </ul>
+      </li>
+      <li><a href="#gallery">Lookbook</a></li>
+      <li><a href="#faq">Help</a></li>
+    </ul>
+    <form class="search" role="search"><input type="search" placeholder="Search tees, cargos..." aria-label="Search"></form>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>Made on the streets of Karachi.</h1>
+      <p>Heavyweight tees, wide-leg cargos and hoodies cut for city heat and long nights out.</p>
+      <div class="btn-row">
+        <a href="#products" class="btn btn-primary">Shop the drop</a>
+        <a href="#gallery" class="btn btn-outline">See the lookbook</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="https://picsum.photos/seed/khaaki-hero/800/900" alt="Model wearing an oversized black tee and khaki cargos">
+      <span class="sticker">Drop 07<br>Out now</span>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track">
+  <span>Oversized fits</span><span>240 GSM cotton</span><span>Cash on delivery</span><span>Easy 7-day exchange</span>
+  <span>Oversized fits</span><span>240 GSM cotton</span><span>Cash on delivery</span><span>Easy 7-day exchange</span>
+</div></div>
+
+<section class="section container" id="categories">
+  <h2>Shop by category</h2>
+  <div class="cat-grid">
+    <a href="#products" class="cat cat-big"><img src="https://picsum.photos/seed/khaaki-tees/700/800" alt="Graphic tees"><span>Tees</span></a>
+    <a href="#products" class="cat"><img src="https://picsum.photos/seed/khaaki-cargo/600/400" alt="Cargo pants"><span>Cargos</span></a>
+    <a href="#products" class="cat"><img src="https://picsum.photos/seed/khaaki-hoodie/600/400" alt="Hoodies"><span>Hoodies</span></a>
+    <a href="#products" class="cat cat-wide"><img src="https://picsum.photos/seed/khaaki-caps/1200/400" alt="Caps and bags"><span>Accessories</span></a>
+  </div>
+</section>
+
+<section class="section container" id="products">
+  <div class="section-head">
+    <h2>Best sellers</h2>
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-filter="all" role="tab">All</button>
+      <button class="tab" data-filter="tees" role="tab">Tees</button>
+      <button class="tab" data-filter="bottoms" role="tab">Bottoms</button>
+      <button class="tab" data-filter="hoodies" role="tab">Hoodies</button>
+    </div>
+  </div>
+  <div class="product-grid">
+    <article class="card" data-cat="tees"><img src="https://picsum.photos/seed/p1/500/600" alt="Lyari Print tee"><h3>Lyari Print Tee</h3><p class="price">Rs. 2,499</p><button class="btn btn-small open-modal">Size guide</button></article>
+    <article class="card" data-cat="tees"><img src="https://picsum.photos/seed/p2/500/600" alt="Clifton Wave tee"><h3>Clifton Wave Tee</h3><p class="price">Rs. 2,799</p><button class="btn btn-small open-modal">Size guide</button></article>
+    <article class="card" data-cat="bottoms"><img src="https://picsum.photos/seed/p3/500/600" alt="Wide-leg khaki cargo"><h3>Wide-Leg Cargo</h3><p class="price">Rs. 4,999</p><button class="btn btn-small open-modal">Size guide</button></article>
+    <article class="card" data-cat="hoodies"><img src="https://picsum.photos/seed/p4/500/600" alt="Midnight zip hoodie"><h3>Midnight Zip Hoodie</h3><p class="price">Rs. 5,999</p><button class="btn btn-small open-modal">Size guide</button></article>
+    <article class="card" data-cat="bottoms"><img src="https://picsum.photos/seed/p5/500/600" alt="Baggy denim"><h3>Baggy Denim</h3><p class="price">Rs. 5,499</p><button class="btn btn-small open-modal">Size guide</button></article>
+    <article class="card" data-cat="hoodies"><img src="https://picsum.photos/seed/p6/500/600" alt="Truck art hoodie"><h3>Truck Art Hoodie</h3><p class="price">Rs. 6,499</p><button class="btn btn-small open-modal">Size guide</button></article>
+  </div>
+</section>
+
+<section class="banner">
+  <div class="container banner-inner">
+    <h2>Eid-ul-Adha sale: flat 30% off</h2>
+    <p>Use code <strong>KHAAKI30</strong> at checkout. Ends Sunday midnight.</p>
+    <a href="#products" class="btn btn-dark">Claim the offer</a>
+  </div>
+</section>
+
+<section class="section container" id="new">
+  <div class="section-head">
+    <h2>New arrivals</h2>
+    <div class="arrows"><button id="prev" aria-label="Previous">&#8592;</button><button id="next" aria-label="Next">&#8594;</button></div>
+  </div>
+  <div class="slider" id="slider">
+    <div class="slide"><img src="https://picsum.photos/seed/n1/400/500" alt="Sand overshirt"><h3>Sand Overshirt</h3><p>Rs. 4,299</p></div>
+    <div class="slide"><img src="https://picsum.photos/seed/n2/400/500" alt="Racer jacket"><h3>Racer Jacket</h3><p>Rs. 7,999</p></div>
+    <div class="slide"><img src="https://picsum.photos/seed/n3/400/500" alt="Boxy white tee"><h3>Boxy White Tee</h3><p>Rs. 2,299</p></div>
+    <div class="slide"><img src="https://picsum.photos/seed/n4/400/500" alt="Parachute pants"><h3>Parachute Pants</h3><p>Rs. 4,799</p></div>
+    <div class="slide"><img src="https://picsum.photos/seed/n5/400/500" alt="Beanie"><h3>Rib Beanie</h3><p>Rs. 1,499</p></div>
+    <div class="slide"><img src="https://picsum.photos/seed/n6/400/500" alt="Crossbody bag"><h3>Crossbody Bag</h3><p>Rs. 3,299</p></div>
+  </div>
+</section>
+
+<section class="section container features">
+  <div class="feature"><h3>Heavyweight fabric</h3><p>240 GSM combed cotton that holds its shape after every wash.</p></div>
+  <div class="feature"><h3>Made in Karachi</h3><p>Cut and stitched locally by small workshops we visit ourselves.</p></div>
+  <div class="feature"><h3>Fast exchange</h3><p>Wrong size? Swap it within 7 days, no questions asked.</p></div>
+</section>
+
+<section class="section container" id="gallery">
+  <h2>Lookbook</h2>
+  <div class="gallery">
+    <img src="https://picsum.photos/seed/g1/600/800" alt="Street look 1">
+    <img src="https://picsum.photos/seed/g2/600/500" alt="Street look 2">
+    <img src="https://picsum.photos/seed/g3/600/700" alt="Street look 3">
+    <img src="https://picsum.photos/seed/g4/600/600" alt="Street look 4">
+    <img src="https://picsum.photos/seed/g5/600/800" alt="Street look 5">
+    <img src="https://picsum.photos/seed/g6/600/500" alt="Street look 6">
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div><strong data-count="25000">0</strong><span>Orders delivered</span></div>
+    <div><strong data-count="120">0</strong><span>Cities reached</span></div>
+    <div><strong data-count="40">0</strong><span>Designs per year</span></div>
+    <div><strong data-count="98">0</strong><span>% happy customers</span></div>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>What customers say</h2>
+  <div class="review-grid">
+    <blockquote class="review"><p>The cargos fit perfectly and the fabric is thick. Easily better than the imported stuff.</p><cite>Hamza, Lahore</cite></blockquote>
+    <blockquote class="review"><p>Ordered on Monday, got it Wednesday. Exchange was smooth too.</p><cite>Areeba, Karachi</cite></blockquote>
+    <blockquote class="review"><p>That Truck Art hoodie gets compliments everywhere I go.</p><cite>Saad, Islamabad</cite></blockquote>
+  </div>
+</section>
+
+<section class="section container faq" id="faq">
+  <h2>Questions</h2>
+  <details><summary>How long does delivery take?</summary><p>2 to 3 working days in major cities and 4 to 6 days elsewhere in Pakistan.</p></details>
+  <details><summary>Do you offer cash on delivery?</summary><p>Yes, COD is available on all orders across Pakistan.</p></details>
+  <details><summary>How do exchanges work?</summary><p>Message us within 7 days with your order number. Items must be unworn with tags.</p></details>
+  <details><summary>Which size should I pick?</summary><p>Our fits are oversized. Take your usual size for a relaxed look, or size down for a regular fit.</p></details>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <h2>Get first access to every drop</h2>
+    <form id="newsForm" class="news-form">
+      <input type="email" id="email" placeholder="Your email" aria-label="Email" required>
+      <button class="btn btn-primary" type="submit">Join the list</button>
+    </form>
+    <p id="newsMsg" class="news-msg" role="status"></p>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><a href="#" class="logo">KHAAKI</a><p>Streetwear made in Karachi.</p></div>
+    <div><h4>Shop</h4><a href="#categories">Tees</a><a href="#categories">Cargos</a><a href="#categories">Hoodies</a></div>
+    <div><h4>Help</h4><a href="#faq">Delivery</a><a href="#faq">Exchanges</a><a href="#faq">Sizing</a></div>
+    <div><h4>Follow</h4><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">WhatsApp</a></div>
+  </div>
+  <p class="copy">&copy; 2026 KHAAKI. All rights reserved.</p>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <button class="modal-close" id="closeModal" aria-label="Close">&times;</button>
+    <h3 id="mTitle">Size guide</h3>
+    <table>
+      <tr><th>Size</th><th>Chest (in)</th><th>Length (in)</th></tr>
+      <tr><td>S</td><td>40</td><td>27</td></tr>
+      <tr><td>M</td><td>42</td><td>28</td></tr>
+      <tr><td>L</td><td>44</td><td>29</td></tr>
+      <tr><td>XL</td><td>46</td><td>30</td></tr>
+    </table>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
